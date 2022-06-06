@@ -1,9 +1,7 @@
 #!/usr/bin/python3
+# 5-no_c.py
+# Gedeon Obae Gekonge <gideonobae@gmail.com.com>
+
+
 def no_c(my_string):
-    if type(my_string) != str:
-        raise Exception("Not a string")
-    new_string = ""
-    for c in my_string:
-        if c != 'c' and c != 'C':
-            new_string += c
-    return (new_string)
+    return ("".join(c for c in my_string if c not in "Cc"))

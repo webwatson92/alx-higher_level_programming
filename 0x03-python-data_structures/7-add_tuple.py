@@ -1,13 +1,18 @@
 #!/usr/bin/python3
+# 7-add_tuple.py
+# Gedeon Obae Gekonge <gideonobae@gmail.com.com>
+
+
 def add_tuple(tuple_a=(), tuple_b=()):
-    a_len = len(tuple_a)
-    b_len = len(tuple_b)
-    r = []
-    for i in range(0, 2):
-        sum_ = 0
-        if i < a_len:
-            sum_ += tuple_a[i]
-        if i < b_len:
-            sum_ += tuple_b[i]
-        r.append(sum_)
-    return (tuple(x for x in r))
+
+    a = len(tuple_a)
+    b = len(tuple_b)
+
+    sums = ((tuple_a[0] if a > 0 else 0) + (tuple_b[0] if b > 0 else 0),
+            (tuple_a[1] if a > 1 else 0) + (tuple_b[1] if b > 1 else 0))
+
+    return sums
+
+# tuple_a += (0, 0)
+# tuple_b += (0, 0)
+# return (tuple_a[0] + tuple_b[0], tuple_a[1] + tuple_b[1])
