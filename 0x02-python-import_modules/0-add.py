@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 # 0_add.py
-# Gedeon Obae Gekonge <gideonobae@gmail.com>
-
+# <elhadjyoussouf@gmail.com>
+from add_0 import add 
 if __name__ == "__main__":
-    """Print the sum of 1 and 2."""
-    from add_0 import add
+    """Print the sum of 1 and 2."""  
 
     a = 1
     b = 2
