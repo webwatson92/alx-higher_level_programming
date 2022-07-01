@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-# 0-rectangle.py
+# 2-rectangle.py
 # El Hadj Youssouf Ouattara <elhadjyoussoufo@gmail.com>
 """Defines a Rectangle class."""
+
 
 class Rectangle:
     """Represent a rectangle."""
@@ -12,12 +13,12 @@ class Rectangle:
             width (int): The width of the new rectangle.
             height (int): The height of the new rectangle.
         """
-        self.width= width
-        self.height= height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
-        """Get/set the width of the rectangle."""
+        """Get/set the width of the Rectangle."""
         return self.__width
 
     @width.setter
@@ -30,7 +31,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """Get/set the height of the rectangle."""
+        """Get/set the height of the Rectangle."""
         return self.__height
 
     @height.setter
@@ -40,3 +41,13 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
+
+    def area(self):
+        """Return the area of the Rectangle."""
+        return (self.__width * self.__height)
+
+    def perimeter(self):
+        """Return the perimeter of the Rectangle."""
+        if self.__width == 0 or self.__height == 0:
+            return (0)
+        return ((self.__width * 2) + (self.__height * 2))
