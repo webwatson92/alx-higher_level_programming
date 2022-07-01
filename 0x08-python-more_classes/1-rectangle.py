@@ -3,7 +3,6 @@
 # # El Hadj Youssouf Ouattara <elhadjyoussoufo@gmail.com>
 """Defines a Rectangle class."""
 
-
 class Rectangle:
     """Represent a rectangle."""
 
