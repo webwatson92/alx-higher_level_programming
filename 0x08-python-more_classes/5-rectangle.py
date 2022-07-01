@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 2-rectangle.py
+# 5-rectangle.py
 # El Hadj Youssouf Ouattara <elhadjyoussoufo@gmail.com>
 """Defines a Rectangle class."""
 
@@ -71,7 +71,7 @@ class Rectangle:
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
-    
+
     def __del__(self):
         """Print a message for every deletion of a Rectangle."""
         print("Bye rectangle...")
