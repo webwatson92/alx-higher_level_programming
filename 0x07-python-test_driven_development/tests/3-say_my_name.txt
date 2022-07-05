@@ -7,15 +7,15 @@ Using ``say_my_name``
 First import ``say_my_name`` from the ``example`` module:
 	
 	>>> say_my_name = __import__('3-say_my_name').say_my_name 
-    >>> say_my_name("El Hadj Youssf", "OUATTARA)
-	My name is El Hadj Youssouf OUATTARA
-	>>> say_my_name("El Hadj Youssf")
-	My name is El Hadj Youssouf
+    >>> say_my_name("John", "Smith)
+	My name is John Smith
+	>>> say_my_name("Bob")
+	My name is Bob
 	>>> say_my_name(1)
 	Traceback (most recent call last):
   	...
     TypeError: first_name must be a string
-    >>> say_my_name("El Hadj Youssouf", [])
+    >>> say_my_name("Bod", [])
 	Traceback (most recent call last):
   	...
     TypeError: first_name must be a string
