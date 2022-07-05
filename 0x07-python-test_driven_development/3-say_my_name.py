@@ -1,16 +1,17 @@
 #!/usr/bin/python3
 """
-This is the ``3-say_my_name.py`` module.
-My name is <first name> <last name>
+    This is the ``say_my_name`` module.
+    The say_my_name module supplies one function, say_my_name().    
 """
 
 def say_my_name(first_name, last_name=""):
     """
-         A function that print my first name and last name.
+        this functions prints a string:
+        e.g: My namem is <fist name> <last name>
 
-            Args:
-                first_name must be a string
-                last_name must be a string
+        Args:
+            first_name (str): The first name
+            last_name (str): The last name (Optional)
     """
 
     if type(first_name) is not str:
