@@ -1,6 +1,5 @@
 /*
  * File: 102-python.c
- * Auth: Gedeon Obae Gekonge
  */
 
 #include "Python.h"
