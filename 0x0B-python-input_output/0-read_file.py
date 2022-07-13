@@ -1,6 +1,7 @@
-#!usr/bin/python3
-#0-read_file
-#elhadjyoussoufo@gmail.com
+#!/usr/bin/python3
+"""
+Module 0-read_file
+"""
 
 def read_file(filename=""):
     """Print the contents of a UTF8 text file to stdout."""
