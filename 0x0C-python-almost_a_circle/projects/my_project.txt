@@ -1,0 +1,10 @@
+"Liste of my language on any kwowledge"
+1) PHP
+2) JAVACSCRIPT
+3) PYTHON
+4) BOOTSTRAP
+5) JQUERY
+6) "REACT JS"
+7) LARAVEL
+8) FLEXBOX
+9- TAILWINS
