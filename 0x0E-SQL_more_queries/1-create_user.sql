@@ -1,4 +1,4 @@
--- creates the MySQL server user user_0d_1.
+-- creates the MySQL server user user_0d_1
 -- should have all privileges
 -- password should be set to user_0d_1_pwd
 -- if user_0d_1 already exists, script should not fail
