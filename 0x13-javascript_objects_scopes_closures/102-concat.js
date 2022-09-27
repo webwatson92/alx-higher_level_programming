@@ -1,5 +1,9 @@
 #!/usr/bin/node
 const fs = require('fs');
-const a = fs.readFileSync(process.argv[2], 'utf8');
-const b = fs.readFileSync(process.argv[3], 'utf8');
-fs.writeFileSync(process.argv[4], a + b);
+const args = process.argv.slice(2);
+
+const [src1, src2, dest] = args;
+
+let content = fs.readFileSync(src1, { encoding: 'utf8', flag: 'r' });
+content += fs.readFileSync(src2, { encoding: 'utf8', flag: 'r' });
+fs.writeFileSync(dest, content, { encoding: 'utf8' });
